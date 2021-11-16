@@ -1,0 +1,61 @@
+body{
+	background-image: url(../img/gambar.jpg);  
+	
+	
+}
+
+li{
+	display: inline-block;
+	color: rgb(235, 221, 221);
+	margin-top: 50px;
+	padding: 10px;
+	margin-left: 20px;
+	float: right;
+	margin-right: 50px;
+}
+
+hl{
+	position: relative;
+	color: rgb(248, 241, 241);
+	font-weight: bold;
+	left: 330px;
+	top: 320px;
+	font-size: 40px;
+}
+
+.button{
+	margin-left: 420px;
+	margin-top: 380px;
+}
+
+.button a{
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+	margin-left: 30px;
+	border: 1px solid white;
+}
+
+.icon-bar {
+	width: 100%; /* Full-width */
+	background-color:transparent; /* Dark-grey background */
+	overflow: auto; /* Overflow due to float */
+  }
+  
+  .icon-bar a {
+	float: left; /* Float links side by side */
+	text-align: center; /* Center-align text */
+	width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+	padding: 12px 0; /* Some top and bottom padding */
+	transition: all 0.3s ease; /* Add transition for hover effects */
+	color: rgb(8, 8, 8); /* White text color */
+	font-size: 26px; /* Increased font size */
+  }
+  
+  .icon-bar a:hover {
+	background-color: #04AA6D; /* Add a hover color */
+  }
+  
+  .active {
+	background-color: #04AA6D; /* Add an active/current color */
+  }
